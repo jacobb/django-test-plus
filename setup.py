@@ -25,7 +25,7 @@ setup(
     packages=find_packages(),
     zip_safe=False,
     entry_points={"pytest11": ["test_plus = test_plus.plugin"]},
-    setup_requires=[
+    install_requires=[
         'pytest-runner',
         'pytest-django',
     ],
